@@ -1,10 +1,10 @@
 {
-	"name": "odyssey-theme",
-	"version": "2.0.2",
+	"name": "openmind",
+	"version": "1.0.0",
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:littlesticksdev/odyssey-theme"
+		"url": "git@github.com:kiran-0001/openmind-web-"
 	},
 	"scripts": {
 		"dev": "astro dev",
