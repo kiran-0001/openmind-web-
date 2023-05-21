@@ -1,77 +1,37 @@
-<p align="center">
-  <img src="assets/gh-banner.png" alt="Odyssey Theme Banner">
-</p>
+# OpenMind
+### A Healthier Mind, A Happier Life.
+> OpenMind is a mental health organization that offers comprehensive resources and services to support individuals in their mental wellness journey. The organization offers a range of traditional mental health resources, such as therapy and support groups, as well as cutting-edge technology-based solutions. The flagship offering is an AI-powered mental health chatbot therapist app, designed to provide accessible, on-demand support for individuals experiencing mental health challenges. The app uses advanced natural language processing and machine learning algorithms to provide personalized, evidence-based recommendations and resources. OpenMind's holistic approach to mental health, combined with its innovative technology offerings, sets it apart in the field and positions it as a leader in promoting mental wellness for all.
 
-<br/>
-<div align="center">
-  <a href="https://twitter.com/littlesticksdev">
-  <img src="assets/twitter-badge.svg" alt="Follow Little Sticks on Twitter"/>
-</a>
-  <a href="https://littlesticks.lemonsqueezy.com/checkout?cart=1b9b09ef-0511-41ca-b94e-d6c6c4fde36e">
-    <img src="assets/sponsor-badge.svg" alt="Sponsor This Repo" />
-  </a>
-  <a href="https://littlesticks.dev/discord">
-    <img src="assets/discord-badge.svg" alt="Join our Discord" />
-  </a>
-  
-</div>
-<br/>
+***
 
-# Odyssey Theme
+#### Frameworks/Languages:
+> - Firebase
+> - Python
+> - React Native
+> - Node
+> - Express
+> - Swift(Optimization??)
 
-Odyssey Theme is a modern theme/starter for a business or startup's marketing website. It provides landing page examples, a full-featured blog, contact forms, and more. It is fully themeable to match your business' branding and style. It even includes a theme switcher component to show how easily the entire style of the site can be changed with only a few lines of CSS.
+# Backend
+> The hard part lol. Will need to tune the NLP model on more data, will require loads of computational power(clustering??). 
+> 
+***Midway3 at Uchicago would be FANTASTIC!🙏***
 
-## Features
+***
 
-<p align="center">
-  <img src="assets/lh-screenshot.png" alt="Screenshot of perfect score in Lighthouse benchmark">
-</p>
+# Initial Prototype
+### Note: Also somewhat indicative of userflow
 
+<img width="459" alt="LandingPage" src="https://user-images.githubusercontent.com/121153158/217441160-8504179f-b0f8-4437-87f7-458dd83fdfe3.png">
 
-- ✅ **A perfect score in Lighthouse**
-- ✅ **Blazing fast performance thanks to Astro 🚀**
-- ✅ **A Full Featured Blog with Tagging**
-- ✅ **Fully theme-able styles with for buttons, shapes, backgrounds, surfaces, etc.**
-- ✅ **Responsive, mobile-friendly landing pages**
-- ✅ **SEO Best Practices (Open Graph, Canonical URLs, sitemap)**
-- ✅ **Performant Local Fonts Setup**
-- ✅ **Contact Forms Setup for Netlify, Formspree, Formspark, etc.**
-- ✅ **A package of ready-to-use UI components**
+<img width="419" alt="Home" src="https://user-images.githubusercontent.com/121153158/217441688-402c3e1b-1501-444c-bb15-a7153e758a54.png">
 
+<img width="398" alt="Goals" src="https://user-images.githubusercontent.com/121153158/217441698-b77f7616-5f7f-44a9-8c26-78bb7a88829a.png">
 
-## Demo
+<img width="408" alt="Locations" src="https://user-images.githubusercontent.com/121153158/217441706-8c9ced0f-0fcd-46d6-841a-b25a015749df.png">
 
-View a [live demo](https://odyssey-theme.littlesticks.site/) of the Odyssey Theme.
+<img width="417" alt="SupportGroups" src="https://user-images.githubusercontent.com/121153158/217441712-2b987be3-b205-4c83-809a-e2314b95413f.png">
 
-## Documentation
+***
 
-1. View the [Theme Setup Guide](https://odyssey-theme.littlesticks.site/theme/theme-setup)
-2. View the [Customizing the Theme Guide](https://odyssey-theme.littlesticks.site/theme/customizing-odyssey)
-
-## Usage
-
-```bash
-cd theme
-
-npm install
-
-npm start
-```
-
-## Deploy
-
-Feel free to deploy and host your site on your favorite static hosting service such as Netlify, Firebase Hosting, Vercel, GitHub Pages, etc.
-
-Astro has [an in-depth guide](https://docs.astro.build/en/guides/deploy/) on how to deploy an Astro project to each service.
-
-## Sponsor
-
-If you find this theme useful, please consider donating to support the continued development of it with the link below
-
-[Donate to Odyssey Theme](https://littlesticks.lemonsqueezy.com/checkout?cart=1b9b09ef-0511-41ca-b94e-d6c6c4fde36e)
-
-## Support
-
-Please feel free to reach out to us on our Discord if you have questions or file an issue on the repo.
-
-[Join our Discord](https://littlesticks.dev/discord)
+> Def an important project, will revisit.
