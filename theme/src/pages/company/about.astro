@@ -1,0 +1,68 @@
+---
+import { TextSection } from '@littlesticks/odyssey-theme-components';
+import Layout from '../../layouts/Page.astro';
+import HeroSection from '../../components/sections/heros/HeroSection.astro';
+
+const seo = {
+	title: 'About | OpenMind',
+	description: 'About Page',
+};
+---
+
+<Layout {seo}>
+	<HeroSection>
+		<div slot="text-container">
+			<h1>About OpenMind</h1>
+			<p>
+				OpenMind started as an idea by students at the Illinois Mathematics and Science Academy(IMSA). <br>Pictured to the left are our co-founders from left to right: 
+        <ul>
+          <li><b>Alexander Sorescu</b>
+            <ul>
+              <li>Chief Operating Officer(COO)</li>
+            </ul>
+          </li>
+          <br>
+          <li><b>Shashi Salavath</b>
+            <ul>
+              <li>Chief Executive Officer(CEO)</li>
+            </ul>
+          </li>
+          <br>
+          <li><b>Ganiu "Abo" Yusuf</b>
+            <ul>
+              <li>Chief Marketing Officer(CMO)</li>
+            </ul>
+          </li>
+        </ul>  
+			</p>
+		</div>
+    <picture slot="image-container">
+      <img
+        src="/assets/images/home/OpenMindTeam.jpg"
+        alt="Our founders"
+        id="home-hero-image"
+      />
+    </picture>
+	</HeroSection>
+  <TextSection narrow>
+    <p>
+      <b>OpenMind started as an idea inspired by events around us.</b> It is a mental health organization driven by the passion to create a positive impact in the lives of individuals struggling with mental health challenges. Inspired by the events that unfolded at the Illinois Mathematics and Science Academy, our journey began with a realization – the academic stress affecting not only our peers but also our teachers. As we delved deeper into the issue, we uncovered a disheartening truth: the lack of affordability and accessibility when it came to mental healthcare.
+    </p>
+    <p>
+      It was during this time that we put our heads together and brought forth a groundbreaking idea. Recognizing the potential of emerging technologies, such as AI and machine learning, Shashi envisioned a new path to address the pressing mental health concerns that plagued our community. This concept ignited a flame within us, propelling us towards action.
+    </p>
+
+    <p>
+      <b>Motivated by the belief that mental healthcare should be accessible to all, we embarked on a mission to leverage the remarkable advancements in AI and machine learning.</b> Abo was instrumental in creating a network of licensed therapists and other passionate mental health organizations to help supplement the inital idea of leveraging these innovative novel technologies. Soon after, Alex began exploring other technology that we could use to help realize our dream. And not long after, <b>OpenMind was born as a result – an organization dedicated to transforming the way mental health support is delivered.</b>
+    </p>
+    <p>
+      <b>Our vision is to create a world where mental healthcare is not a luxury but a fundamental right.</b> We strive to break down barriers, ensuring that no individual is left behind due to financial constraints or limited resources. Through the power of technology, we aim to provide a safe, inclusive, and supportive environment for individuals to explore their mental well-being.
+    </p>  
+    <p>
+      At OpenMind, we are committed to fostering a holistic approach to mental health. Our team consists of experienced mental health professionals, data scientists, and national mental health organizations, all united by a shared goal: to revolutionize the way mental healthcare is accessed and delivered. <b>By harnessing the potential of AI and machine learning, we offer innovative solutions tailored to individual needs, empowering individuals to take control of their mental well-being.</b>
+    </p>
+    <p>
+      Join us on this transformative journey towards a mentally healthier world. <b>Together, we can break the barriers, destigmatize mental health, and embrace the power of an OpenMind.</b>
+    </p>
+  </TextSection>
+</Layout>

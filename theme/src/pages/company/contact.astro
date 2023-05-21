@@ -1,0 +1,54 @@
+---
+import ContactForm from '../../components/forms/ContactForm.astro';
+import Layout from '../../layouts/Page.astro';
+import { Container } from '@littlesticks/odyssey-theme-components';
+
+const seo = {
+	title: 'Contact | Astro Odyssey Theme',
+	description: 'Contact Page',
+};
+---
+
+<Layout seo={seo}>
+	<Container>
+		<section class="contact-hero__section">
+			<div class="contact-hero__text-section">
+				<h1>Contact Us</h1>
+				<p>
+					We value your feedback at OpenMind. Your insights, experiences, and suggestions are vital in shaping our services. We pride ourselves on constant iteration, continuously striving to improve and enhance our offerings for the mental health community. Reach out to us with your questions, concerns, or thoughts, and together, we can create a nurturing environment that promotes growth, resilience, and overall well-being. Your voice matters, and we appreciate your trust in OpenMind.
+				</p>
+			</div>
+			<div class="col-2__container">
+				<ContactForm />
+			</div>
+		</section>
+	</Container>
+</Layout>
+
+<style>
+	.contact-hero__section {
+		margin: var(--section-margin) auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		min-height: calc(90vh - var(--navbar-height));
+		gap: 3rem;
+	}
+	.contact-hero__text-section {
+		padding: 2rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: var(--theme-surface-1);
+		border-radius: var(--theme-shape-radius);
+	}
+	.col-2__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	@media (max-width: 768px) {
+		.contact-hero__section {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

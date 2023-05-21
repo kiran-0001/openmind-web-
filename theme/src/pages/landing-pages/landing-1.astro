@@ -1,0 +1,116 @@
+---
+import {Icon} from 'astro-icon'
+import {
+  AnnouncementBar,
+	Button,
+	CustomerQuoteSection,
+	ThreeColumnTextSection,
+	YouTubeEmbedSection,
+  StickyTextImageSection,
+  CtaCardSection
+} from '@littlesticks/odyssey-theme-components';
+import Layout from '../../layouts/Page.astro';
+import TextAndImageHero from '../../components/sections/heros/TextAndImageHero.astro';
+
+const seo = {
+	title: 'Learn More | OpenMind',
+	description: 'About OpenMind',
+};
+
+---
+
+<AnnouncementBar text="Read Our Latest Article Posting" href="/blog/posts/remote-work-mental-health/" slot="announcement-bar"/>
+<Layout seo={seo} >
+	<TextAndImageHero reversed>
+		<div slot="text-container">
+			<h1>Accessible Mental Healthcare</h1>
+			<p>OpenMind strives to make mental healthcare affordable and accesible for all. The centerpiece of our service is <i>Quinn</i>, an AI therapist.</p>
+		</div>
+		<div slot="btns-container">
+			<Button customIcon
+				><a href="/company/about" style="text-decoration: none;">Learn More About Our Story</a><Fragment slot="icon">
+          <Icon name="ic:baseline-chevron-right"/>
+        </Fragment></Button
+			>
+		</div>
+		<picture slot="image-container">
+			<img
+				src="/assets/images/landing-1/Quinn.png"
+				alt="Quinn, AI therapist"
+				id="home-hero-image"
+			/>
+		</picture>
+	</TextAndImageHero>
+
+	<CustomerQuoteSection
+		quoteText="This product(Quinn) will be invaluable in my clinic. Truly nothing like it."
+		customerName="Dr. Josephine Wanki, Licensed Therapist in Aurora, IL"
+	/>
+
+	<ThreeColumnTextSection>
+		<div slot="column-1-body">
+			<h2>Why?</h2>
+			<p>
+				We were founded in response to the growing global mental health crisis and the barriers that many individuals face in accessing traditional mental health services. OpenMind recognizes that mental health is a fundamental aspect of overall well-being and that everyone should have access to the support they need to achieve and maintain good mental health.
+
+			</p>
+		</div>
+
+		<div slot="column-2-body">
+			<h2>Quinn?</h2>
+			<p>
+				Quinn is an AI-powered mental health therapist that has has received wide recognition and has the potential to revolutionize the way that mental health support is delivered. Accessed via web or app, Quinn provides on-demand support for individuals experiencing mental health challenges and provide personalized, evidence-based recommendations and resources.
+
+			</p>
+		</div>
+		<Button slot="column-2-cta" outlined><a href="https://youtu.be/l-tv464UYMM" target="_blank" style="text-decoration: none;">See Quinn in Action</a></Button>
+
+		<!--Could possibly elaborate in the future-->
+		<!-- <Button slot="column-1-cta" outlined>Learn More</Button> -->
+		<div slot="column-3-body">
+			<h2>How?</h2>
+			<p>
+				Our solution to the crisis is to prioritize mitigating two drawbacks of mental healthcare: affordability and accesability. OpenMind addresses these drawbacks and the mental health crisis at large by providing a hub of resources and services such as our AI therapist <i>Quinn</i>, support groups, and our network of licensed clinics and therapists.
+			</p>
+		</div>
+		<!--Could possibly elaborate in the future-->
+		<!-- <Button slot="column-2-cta" outlined>Learn More</Button> -->
+	</ThreeColumnTextSection>
+
+	<YouTubeEmbedSection url="https://www.youtube.com/watch?v=rSpg5Jxgjfc&ab_channel=AustralianDepartmentofHealthandAgedCare" rounded />
+
+  <StickyTextImageSection>
+    <div slot="text-container">
+      <h2>Quinn in one word is...</h2>
+      <h3>Life-Like</h3>
+      <p>
+        Quinn is engineered with the latest technology in speech-synthesis and output-generation. Using a robust neural archictecture, Quinn is poised to provide nuanced, in-depth, and empathetic responses. In addition, using the snappy cloud-processing power of AWS, Quinn will be at your disposal in an instant. In short, Quinn is a full-fledged therapist and more.
+      </p>
+      <h3>Responsive</h3>
+        <p>
+			Quinn is fully responsive and understands the fluctuation of human emotion. Using dynamic machine learning algorithms, Quinn can adjust treatments to specific end-user cases. In additon, Quinn recognizes edge cases and may invoke other resources such as the national suicide healthline or refer the user to licensed clinics.
+        </p>
+      <h3>Effective</h3>
+        <p>
+			Quinn has been clinically tested and is poised to provide effective, safe, and viable treatments. All of Quinn's outputs coform to the DSM-5, the medical standard reference of all mental healthcare. In addition, constantly ebing trained on new and verfied data, Quinn is always evolving and dynamically adjusting to new research and advances in the field of mental healthcare.
+      	</p>
+    </div>
+     <picture slot="image-container">
+      <img
+        src="/assets/images/landing-1/NeuralArchitecture.png"
+        alt="Quinn, AI therapist"
+        loading="lazy"
+      />
+    </picture>
+  </StickyTextImageSection>
+
+  <CtaCardSection background="var(--theme-surface-2)" color="var(--theme-on-surface-2)">
+    <h2>Your Mental Health Wellness Starts Today</h2>
+    <p>It only takes a couple clicks to begin.</p>
+    <Button customIcon><a href="https://docs.google.com/forms/d/e/1FAIpQLScWJ-Zo88mNnX4jlIXLiZgIPnHbiiKk7HcqIlSt55ZqS0LB_g/viewform" target="_blank" style="text-decoration: none;">Join Us</a><Fragment slot="icon">
+      <Icon name="ic:baseline-chevron-right"/>
+    </Fragment></Button>
+  </CtaCardSection>
+
+</Layout>
+
