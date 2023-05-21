@@ -10,9 +10,9 @@ export const footerSocials = [
     icon: "mdi:youtube",
   },
   {
-    name: 'Discord',
-    url: '',
-    icon: "ic:baseline-discord",
+    name: 'Twitter',
+    url: 'https://twitter.com/OpenMindOfficia',
+    icon: "mdi:twitter",
   },
 ]
 
