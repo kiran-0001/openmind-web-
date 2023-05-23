@@ -38,7 +38,7 @@ export const footerLists = [
 		title: 'Resources',
 		items: [
 			{
-				title: 'PschologyToday',
+				title: 'PsychologyToday',
 				slug: 'https://www.psychologytoday.com/us/therapists',
 			},
 			{
